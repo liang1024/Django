@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mysite2',
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +75,10 @@ WSGI_APPLICATION = 'untitled9.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
+'''
+ENGINE-要么 'django.db.backends.sqlite3'， 'django.db.backends.postgresql'， 'django.db.backends.mysql'，或 'django.db.backends.oracle'。其他后端也可用。
+NAME - 数据库的名称。如果您使用SQLite，数据库将是您计算机上的一个文件; 在这种情况下，NAME 应该是该文件的完全绝对路径，包括文件名。默认值，将文件存储在项目目录中。os.path.join(BASE_DIR, 'db.sqlite3')
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

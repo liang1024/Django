@@ -3,9 +3,9 @@
 https://docs.djangoproject.com/en/1.10/topics/install/
 https://docs.djangoproject.com/en/1.10/howto/windows/
 
-2.编写您的第一个Django应用程序
-    1.第1部分 :https://docs.djangoproject.com/en/1.10/intro/tutorial01/
-      创建项目:
+2.编写您的第一个Django应用程序-1
+    第1部分 :https://docs.djangoproject.com/en/1.10/intro/tutorial01/
+     1.创建项目:
          django-admin startproject mysite
 
          让我们看看startproject创建的内容：
