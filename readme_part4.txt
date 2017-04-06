@@ -131,7 +131,7 @@
                 在开始使用计算器之前，您应该了解基础数学。
 
                 修改URL配置
-                首先，打开polls/urls.pyURLconf并改变它：
+                首先，打开polls/urls.py  URLconf并改变它：
 
                 polls/urls.py
 
